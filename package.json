@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "start": "next start",
+    "dev": "next dev --openssl-legacy-provider dev",
+    "build": "next build --openssl-legacy-provider build",
+    "start": "next start --openssl-legacy-provider start",
     "lint": "next lint",
     "production": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider  node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
