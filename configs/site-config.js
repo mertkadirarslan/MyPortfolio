@@ -3,8 +3,7 @@ import {
   FaDev,
   FaLinkedin,
   FaQuora,
-  FaTwitter,
-  FaInstagram
+  FaTwitter
 } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
@@ -26,19 +25,13 @@ const siteConfig = {
         icon: <FaTwitter />
       },
       {
-        url: "https://www.instagram.com/mertkadirdev/",
-        label: "Instagram Account",
-        type: "instagram",
-        icon: <FaInstagram />
-      },
-      {
         url: "https://dev.to/mert_kadir",
         label: "Dev Account",
         type: "gray",
         icon: <FaDev />
       },
       {
-        url: "https://www.linkedin.com/in/mert-kadir-b14275232/",
+        url: "https://linkedin.com/in/",
         label: "LinkedIn Account",
         type: "linkedin",
         icon: <FaLinkedin />
