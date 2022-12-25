@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build --openssl-legacy-provider",
+    "start": "next start --openssl-legacy-provider",
     "lint": "next lint",
     "production": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider  node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
@@ -29,6 +29,7 @@
     "react-icons": "^4.2.0",
     "react-palette": "^1.0.2",
     "react-progressive-image": "^0.6.0",
+    "react-scripts": "^5.0.1",
     "react-stack-grid": "^0.7.1",
     "react-use-lanyard": "^0.1.4",
     "remark": "^13.0.0",
